@@ -31,7 +31,8 @@ include $(DEVKITARM)/3ds_rules
 #     - icon.png
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
-APP_TITLE	:= Mastermind
+APP_AUTHOR	:=	Adrien Besnier
+APP_TITLE	:=	Mastermind
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
 SOURCES		:=	source
